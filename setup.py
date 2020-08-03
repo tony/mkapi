@@ -62,9 +62,9 @@ if sys.argv[-1] == "check":
 
 
 setup(
-    name="mkapi",
+    name="mkapi-git-pull",
     version=get_version("mkapi"),
-    description="An Auto API Documentation tool.",
+    description="Fork of mkapi since poetry fails with git + python verson constraint",
     long_description=long_description,
     url="https://mkapi.daizutabi.net",
     author="daizutabi",
